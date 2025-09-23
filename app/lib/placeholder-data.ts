@@ -2,12 +2,24 @@
 // https://nextjs.org/learn/dashboard-app/fetching-data
 const users = [
   {
+    id: '410544b2-4001-4271-9855-fec4b6a64423',
+    name: 'Shtekata',
+    email: 'gesheval@gmail.com',
+    password: '7u87u8',
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64427',
+    name: 'Ala Bala',
+    email: 'alabala@gmail.com',
+    password: '7u87u8',
+  },
+  {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
     name: 'User',
     email: 'user@nextmail.com',
     password: '123456',
   },
-];
+]
 
 const customers = [
   {
@@ -46,7 +58,7 @@ const customers = [
     email: 'balazs@orban.com',
     image_url: '/customers/balazs-orban.png',
   },
-];
+]
 
 const invoices = [
   {
@@ -127,7 +139,7 @@ const invoices = [
     status: 'paid',
     date: '2022-06-05',
   },
-];
+]
 
 const revenue = [
   { month: 'Jan', revenue: 2000 },
@@ -142,6 +154,6 @@ const revenue = [
   { month: 'Oct', revenue: 2800 },
   { month: 'Nov', revenue: 3000 },
   { month: 'Dec', revenue: 4800 },
-];
+]
 
-export { users, customers, invoices, revenue };
+export { users, customers, invoices, revenue }
